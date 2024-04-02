@@ -1,0 +1,278 @@
+*{
+      box-sizing: border-box;
+      margin:0;
+      padding: 0;
+  
+}
+body{
+      width: 1300px;
+      height: 100vh;
+}
+
+/* links*/
+.container{
+      padding: 0 20px;
+      padding-top: 20px;
+      padding-left: 20px;
+      font-size: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 2px;
+      color: black;
+      background:green;
+}
+.head img{
+      width:50px;
+      height:50px
+}
+/*head*/
+.container .head h1{
+      font-size: 20px;
+      font-weight: bold;
+      font-style: italic;
+      text-align: left;
+      pad: 20px;
+}
+.nav-bar ul{
+      display: flex;
+      justify-content: right;
+      font-size: 20px;
+      padding: 10px;
+      
+      list-style: none;
+      font-size: 25px;
+      font-weight: 400px;
+      cursor: pointer;
+}
+li a{
+      color: wheat;
+      padding: 0 5px;
+      text-decoration: none;
+      transition: 5s;
+
+}
+.container .head .nav-bar ul li a:hover{
+      color: aqua;
+      transition: 0.5s;
+}
+.container-bt{
+      padding-left:20px;
+      font-weight: 600;
+      font-size: 20px;
+      background-color: cadetblue;
+      color: antiquewhite;
+      text-align: start;
+      padding-left: 150px;
+
+}
+.container-bt:hover{
+       color: brown;
+}
+.container-bt .btn{
+  text-align: center;
+}
+/* beds comment*/
+.beds{
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-column-gap: 70px;
+      padding-top: 80px;
+      padding-left: 40px;
+
+        /*display: flex;
+        justify-content: space-around;
+        padding-top:80px;*/
+  
+}
+.beds .bed:hover img {
+      position: relative;
+      top: -70px;
+      bottom: -70px;
+      font-size: 20px;
+      padding: 10px 10px;
+      box-shadow: red;
+
+      opacity: 0.3;
+      pointer-events: none;
+      transition: all;
+}
+.beds .bed{
+      opacity: 1;
+      pointer-events: auto;
+}
+.price{
+      position: relative;
+      text-align: center;
+  
+}
+.price:hover{
+      background: red;
+      transform: translate(30px);
+}
+/*chairs code*/
+
+.chairs{
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-column-gap: 70px;
+      padding-top: 80px;
+      padding-left: 40px;
+}
+.chairs .chair:hover img {
+      position: relative;
+      top: -70px;
+      bottom: -70px;
+      font-size: 20px;
+      padding: 10px 10px;
+      box-shadow: red;
+      
+      opacity: 0.3;
+      pointer-events: none;
+      transition: all;
+  }
+  
+
+.pricee{
+       position: relative;
+      text-align: center;
+  
+}
+.pricee:hover{
+      background: brown;
+      transform: translate(30px);
+}
+/* tebles code */
+
+.tables{
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-column-gap: 70px;
+      padding-top: 80px;
+      padding-left: 40px;
+  }
+  .tables .table:hover img {
+      position: relative;
+      top: -70px;
+      bottom: -70px;
+      font-size: 20px;
+      padding: 10px 10px;
+      box-shadow: red;
+      
+      opacity: 0.3;
+      pointer-events: none;
+      transition: all;
+    }
+    /* OUR MEMBERS*/
+    h4{
+      text-align: center;
+      padding-top:10px;
+      padding-bottom:10px;
+      font-size: 20px;
+      font-weight: 900px;
+      background-color: aliceblue;
+      color: black;
+      position: relative;
+      letter-spacing: 1px;
+      cursor: pointer;
+
+    }
+    .members{
+      display: grid;
+      grid-template-columns: 100px 100px 100px;
+      grid-column-gap: 200px;
+      padding-left: 50px;
+      transition: 2s;
+    }
+    .members:hover{
+      background:wheat;
+    }
+    .member li{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      list-style: none;
+      font-weight: bolder;
+      transition: 3s;
+    }
+    .member li:hover{
+      color: red;
+    }
+    .member-mg{
+      width: 20px;
+      height: 20px;
+    }
+    
+
+    /* contact style*/
+    .contact {
+      padding-top: 100px;
+      padding-left: 20px;
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      font-size: 20px;
+      font-weight: 900;
+      font-family: 'Courier New', Courier, monospace;
+      font-style: normal;
+      background-color: greenyellow;
+      border: 10px solid red;
+      border-radius: 10px;
+      
+    }
+      .contact li{
+     /* height: 70px;
+      width: 70px;
+      border: 2px solid red;
+      margin: 0 15px;
+      border-radius: 50%;*/
+      cursor: pointer;
+      overflow: hidden;
+      }
+      .contact li:hover{
+      background-color: black;
+    }
+    .contact li a{
+      line-height: 70px;
+      text-align: center;
+      font-size: 30px;
+      transition: all 0.5s ease;
+    }
+    .contact li a:hover{
+      color: antiquewhite;
+    }
+  .map{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+   /* .icons{
+    padding: 10px;
+      
+    }
+    .contact .icons .button {
+      text-align: start;
+    }
+    .contact .icons .button span{
+      font-size: 20px;
+      font-weight: 500;
+    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
